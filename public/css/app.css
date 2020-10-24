@@ -15808,6 +15808,16 @@ body header nav #navbarSupportedContent ul li:hover {
   background-color: red;
 }
 
+.our {
+  color: red;
+}
+
+h1 {
+  font-family: Courgette;
+  padding-bottom: 5px;
+  font-size: 45px;
+}
+
 .texthead {
   display: flex;
   flex-direction: column;
@@ -15821,6 +15831,16 @@ body header nav #navbarSupportedContent ul li:hover {
 .texthead h1 {
   font-family: Courgette;
   padding-bottom: 5px;
+  font-size: 45px;
+}
+
+.texthead h1 .occasion {
+  font-size: 80px;
+}
+
+.texthead h1 .test {
+  color: red;
+  font-size: 80px;
 }
 
 .texthead .butt1 {
@@ -15937,4 +15957,17 @@ body header nav #navbarSupportedContent ul li:hover {
 
 #v-pills-tab .active i {
   color: red;
+}
+
+.bg2 {
+  background-color: black;
+  color: white;
+}
+
+.tiret_bas {
+  border-bottom: #7c7b7b solid 0.5px;
+}
+
+.imagebg {
+  background-image: url("../../public/images/book_table_bg.jpg");
 }
