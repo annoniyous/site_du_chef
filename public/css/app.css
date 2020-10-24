@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Courgette;
+  src: url("../../public/fonts/Courgette/Courgette-Regular.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6138,7 +6143,7 @@ readers do not read off random characters that represent icons */
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #17a2b8;
+  --cyan: #17a2;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
@@ -15787,6 +15792,7 @@ body header {
   background-repeat: no-repeat;
   height: 950px;
   width: 100%;
+  position: relative;
 }
 
 body header nav #navbarSupportedContent ul {
@@ -15813,6 +15819,7 @@ body header nav #navbarSupportedContent ul li:hover {
 }
 
 .texthead h1 {
+  font-family: Courgette;
   padding-bottom: 5px;
 }
 
@@ -15842,6 +15849,15 @@ body header nav #navbarSupportedContent ul li:hover {
   height: 10px;
 }
 
+.pont {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 98.5%;
+  background-repeat: repeat-x;
+}
+
 @media screen and (min-width: 1024px) {
   .resp {
     display: none;
@@ -15869,4 +15885,56 @@ body header nav #navbarSupportedContent ul li:hover {
     height: 0px;
     width: 0px;
   }
+}
+
+.sec1 {
+  background-image: url("../../public/images/main_bg.jpg");
+}
+
+.container1 {
+  margin: 0% 8%;
+  background-color: white;
+}
+
+.marg {
+  margin: 0% 20%;
+}
+
+.card-body p {
+  line-height: 2px;
+}
+
+.card-body .card-text {
+  line-height: 4px;
+}
+
+.col-lg-5 {
+  border-right: none;
+  border-left: none;
+}
+
+#v-pills-tab a {
+  border-right: solid #bebaba 1px;
+}
+
+#v-pills-tab a i {
+  ext-align: center;
+  color: #bebaba;
+}
+
+#v-pills-tab a .menu {
+  text-align: center;
+  font-size: 35px;
+  color: #000000;
+  border-bottom: solid #bebaba 1px;
+  margin-bottom: 20px;
+}
+
+#v-pills-tab .active {
+  border-right: 5px red solid;
+  border-bottom: solid 1 px #bebaba;
+}
+
+#v-pills-tab .active i {
+  color: red;
 }
