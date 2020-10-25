@@ -15896,6 +15896,9 @@ h1 {
     text-align: center;
     font-size: 20px;
   }
+  .texthead h1 .occasion, .texthead h1 .test {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -15904,6 +15907,12 @@ h1 {
     visibility: hidden;
     height: 0px;
     width: 0px;
+  }
+  .texthead {
+    padding-top: 50px;
+  }
+  .texthead h1 .occasion, .texthead h1 .test {
+    font-size: 40px;
   }
 }
 
@@ -15970,4 +15979,88 @@ h1 {
 
 .imagebg {
   background-image: url("../../public/images/book_table_bg.jpg");
+}
+
+.tag {
+  border-radius: 35%;
+  border: solid 1px #ffffff;
+  background-color: red;
+  color: #ffffff;
+}
+
+.bg4 {
+  background-image: url("../../public/images/testimonials_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#grandediv {
+  margin: 0% 13%;
+}
+
+#grandediv div #imgBlog {
+  position: relative;
+}
+
+#grandediv div #imgBlog img {
+  border-radius: 20px;
+  border: 4px solid grey;
+}
+
+#grandediv div .stat {
+  background-color: red;
+  border-radius: 10px;
+  padding: 2% 6% 0% 3%;
+  color: #fff;
+  width: max-content;
+  position: absolute;
+  left: 15%;
+  bottom: 33%;
+}
+
+#grandediv div .stat p {
+  font-size: 18px;
+}
+
+#grandediv div .stat p .chiffre {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#grandediv div .stat p .barre {
+  font-size: 30px;
+}
+
+#grandediv div .description {
+  padding: 10% 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container2 {
+  height: 400px;
+  width: 400px;
+}
+
+.bor_bot {
+  border-bottom: solid white 1px;
+}
+
+footer {
+  background-image: url("../../public/images/footer_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.pontf {
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-repeat: repeat-x;
 }
